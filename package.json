@@ -1,0 +1,36 @@
+{
+  "name": "react-tools",
+  "version": "1.0.0",
+  "description": "react component library base react hooks",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "start": "react-scripts-ts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "component"
+  ],
+  "author": "sam liu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-info": "^4.1.4",
+    "@storybook/react": "^4.1.4",
+    "@types/jest": "^23.3.12",
+    "@types/storybook__react": "^4.0.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.5",
+    "jest": "^23.6.0",
+    "react-docgen-typescript-loader": "^3.0.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  }
+}
